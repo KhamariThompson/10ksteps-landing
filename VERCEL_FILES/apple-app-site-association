@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "TEAM_ID.com.KhamariT.10k-Steps",
+        "paths": [
+          "/groups/*"
+        ]
+      }
+    ]
+  }
+}
