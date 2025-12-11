@@ -292,6 +292,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     borderRadius: '24px',
     padding: '40px',
     textAlign: 'center',
+    color: '#1a1a1a',
   },
   footer: {
     marginTop: '32px',
