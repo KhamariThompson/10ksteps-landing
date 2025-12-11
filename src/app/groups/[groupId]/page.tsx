@@ -153,6 +153,17 @@ export default function GroupPage() {
           </div>
         </div>
 
+        {/* Join Call to Action */}
+        <div style={styles.joinBanner}>
+          <div style={styles.joinText}>
+            <span style={styles.joinEmoji}>👋</span>
+            <div>
+              <div style={styles.joinTitle}>Someone invited you to join!</div>
+              <div style={styles.joinSubtitle}>Download the app to start tracking your steps together</div>
+            </div>
+          </div>
+        </div>
+
         {/* Call to Action */}
         <div style={styles.actions}>
           <button onClick={openInApp} style={{...styles.button, ...styles.primaryButton}}>
@@ -287,5 +298,32 @@ const styles: { [key: string]: React.CSSProperties } = {
     color: 'white',
     opacity: 0.8,
     fontSize: '15px',
+  },
+  joinBanner: {
+    background: 'linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%)',
+    borderRadius: '16px',
+    padding: '20px',
+    marginBottom: '24px',
+    border: '2px solid rgba(102, 126, 234, 0.3)',
+  },
+  joinText: {
+    display: 'flex',
+    alignItems: 'center',
+    gap: '16px',
+  },
+  joinEmoji: {
+    fontSize: '32px',
+    flexShrink: 0,
+  },
+  joinTitle: {
+    fontSize: '18px',
+    fontWeight: 'bold',
+    color: '#1a1a1a',
+    marginBottom: '4px',
+  },
+  joinSubtitle: {
+    fontSize: '14px',
+    color: '#666',
+    lineHeight: 1.4,
   },
 };

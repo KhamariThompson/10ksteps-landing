@@ -110,7 +110,7 @@ export default function PrivacyPage() {
                 <li>Provide step tracking, streaks, and progress visualization</li>
                 <li>Sync your data across your devices</li>
                 <li>Enable group challenges and leaderboards</li>
-                <li>Provide AI coaching insights (via OpenAI GPT-4)</li>
+                <li>Provide AI coaching insights</li>
                 <li>Send optional notifications about your progress</li>
                 <li>Process subscription payments (via RevenueCat)</li>
                 <li>Improve app performance and fix bugs</li>
@@ -147,7 +147,7 @@ export default function PrivacyPage() {
                   </a>
                 </div>
                 <div>
-                  <strong className="text-text-primary">OpenAI (GPT-4)</strong> - AI coach feature
+                  <strong className="text-text-primary">OpenAI</strong> - AI coach feature
                   (receives anonymized fitness stats + your questions, NOT personal details).{" "}
                   <a
                     href="https://openai.com/policies/privacy-policy"
